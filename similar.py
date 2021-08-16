@@ -6,21 +6,10 @@
 import cv2
 import os
 
-#TARGET_FILE = '001'
+
 IMG_DIR = os.path.abspath(os.path.dirname(__file__)) + '/output/'
 #IMG_SIZE = (200, 200)
 IMG_SIZE = (500, 500)
-
-#target_img_path = IMG_DIR + TARGET_FILE
-#target_img = cv2.imread(target_img_path, cv2.IMREAD_GRAYSCALE)
-#target_img = cv2.resize(target_img, IMG_SIZE)
-
-#bf = cv2.BFMatcher(cv2.NORM_HAMMING)
-# detector = cv2.ORB_create()
-#detector = cv2.AKAZE_create()
-#(target_kp, target_des) = detector.detectAndCompute(target_img, None)
-
-#print('TARGET_FILE: %s' % (TARGET_FILE))
 
 imglist = []
 stitchimgs = []
